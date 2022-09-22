@@ -24,8 +24,8 @@ def read(*names, **kwargs):
 
 
 setup(
-    name='mydemo',
-    version='0.0.0',
+    name='calendar_calc',
+    version='0.1',
     license='MIT',
     description='Various calculations on a calendar like days, months etc...',
     # long_description='%s\n%s' % (
@@ -73,8 +73,7 @@ setup(
     python_requires='>=3',
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
-        'datetime',
-        'calendar'
+        'datetime'
     ],
     extras_require={
         # eg:
